@@ -1,0 +1,65 @@
+html{
+	font-family: 	"Source Sans Pro", "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+h1{
+	color: #111111;
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 600;
+	clear: right;
+	margin-bottom: 0px;
+}
+h2{
+	color: 	#202020;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bold;
+
+}
+p{
+	color: 	#2e2d2d;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 300;
+	width: 960px;
+}
+figure{
+	float: left;
+	margin-right: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+nav{
+	background-color: #b3f14fb7;
+	padding: 14px;
+	color: white;
+	margin-bottom: 20px;
+}
+/* Door een spatie toe te kennen worden enkel de tags a in nav aangepast */
+nav a{
+	color: white;
+	background-color: #86ab00;
+	padding: 10px;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-decoration: none;
+}
+nav h1{
+	float: right;
+	color: rgb(32, 32, 32);
+	font-size: 24px;
+	line-height: 15px;
+	font-weight: 600;
+	clear: right;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+caption{
+	color: 	#ec0606;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 300;
+	width: 960px;
+	margin-top: 0px;
+}
