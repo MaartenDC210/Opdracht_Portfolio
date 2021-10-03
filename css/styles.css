@@ -21,6 +21,7 @@ h3{
 }
 h4{
 	color: #61892f;
+	margin-left: 10px;
 }
 p{
 	color: 	#cecece;
@@ -36,6 +37,11 @@ figure{
 	margin-right: 20px;
 	margin-top: 20px;
 	margin-bottom: 0px;
+}
+table, th, tr, td{
+	border: 1px solid #86C232;
+	border-collapse: collapse;
+	padding: 10px;
 }
 nav{
 	background-color: #474b4f;
