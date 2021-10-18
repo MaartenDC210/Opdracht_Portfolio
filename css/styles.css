@@ -60,6 +60,9 @@ nav a{
 	text-decoration: none;
 	border-radius: 5px;
 }
+nav a:link{
+	color: #cecece;
+}
 nav a:visited{
 	color: #cecece;
 }
@@ -79,14 +82,6 @@ nav h1{
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
-.caption{
-	color: 	#ec0606;
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: 300;
-	width: 960px;
-	margin-top: 0px;
-}
 .mainlayout{
 	background-color: #222629;
 	color: #cecece;
@@ -94,7 +89,15 @@ nav h1{
 	max-width: 700px;
 	margin: auto;
 }
-.btn{
-	background-color: #F4976C;
+#btnvisited{
+	
+	color: #222629;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
