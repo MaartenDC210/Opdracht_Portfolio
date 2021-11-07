@@ -46,6 +46,7 @@ table, th, tr, td{
 nav{
 	background-color: #474b4f;
 	padding: 14px;
+	margin-top: 5px;
 	margin-bottom: 20px;
 	border-radius: 5px;
 }
@@ -60,11 +61,15 @@ nav a{
 	text-decoration: none;
 	border-radius: 5px;
 }
-nav a:link{
-	color: #cecece;
+nav a:hover{
+	background-color: #86C232;
+	color: #222629;
 }
 nav a:visited{
 	color: #cecece;
+}
+nav a:visited:hover{
+	color: #222629;
 }
 a:link{
 	color:#86C232;
@@ -90,10 +95,9 @@ nav h1{
 	margin: auto;
 }
 #btnvisited{
-	
-	color: #cecece;
+	color: #222629;
+	background-color: #86C232;
 	text-decoration: underline;
-	/* font-weight: bold; */
 }
 .center {
   margin: auto;
@@ -152,9 +156,17 @@ form label{
 	grid-row: 4;
 }
 form button{
-	float: right;
+
 	color: #cecece;
 	background-color: #61892f;
+	border: none;
+	border-radius: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+form button:hover{
+	background-color: #86C232;
+	color: #222629;
 }
 .resetBtn{
 	grid-column: 3;
@@ -163,6 +175,7 @@ form button{
 .submitBtn{
 	grid-column: 3;
 	grid-row: 4;
+
 }
 
 
