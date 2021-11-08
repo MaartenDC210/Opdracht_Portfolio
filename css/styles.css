@@ -47,7 +47,7 @@ nav{
 	background-color: #474b4f;
 	padding: 14px;
 	margin-top: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	border-radius: 5px;
 }
 /* Door een spatie toe te kennen worden enkel de tags a in nav aangepast */
@@ -60,6 +60,9 @@ nav a{
 	margin-bottom: 2px;
 	text-decoration: none;
 	border-radius: 5px;
+}
+nav a:link{
+	color: #cecece;
 }
 nav a:hover{
 	background-color: #86C232;
