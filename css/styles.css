@@ -16,6 +16,9 @@ h2{
 	font-weight: bold;
 
 }
+.firstTitle{
+	margin-top: 0px;
+}
 h3{
 	color: #61892f;
 }
@@ -74,12 +77,18 @@ nav a:visited{
 nav a:visited:hover{
 	color: #222629;
 }
+#btnvisited{
+	color: #222629;
+	background-color: #86C232;
+	text-decoration: underline;
+}
 a:link{
 	color:#86C232;
 }
 a:visited{
 	color:#61892f;
 }
+
 nav h1{
 	float: right;
 	color: #61892f;
@@ -97,16 +106,13 @@ nav h1{
 	max-width: 700px;
 	margin: auto;
 }
-#btnvisited{
-	color: #222629;
-	background-color: #86C232;
-	text-decoration: underline;
-}
+
 .center {
   margin: auto;
   width: 50%;
   padding: 10px;
 }
+/* Form css */
 form{
 	margin-top: 10px;
 	display: grid;
